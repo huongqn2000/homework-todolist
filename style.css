@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    width: 50%;
+    height: auto;
+    border: 2px solid salmon;
+    margin: 20px auto;
+}
+.task-list{
+    margin-top: 30px;
+}
+.task-item{
+    display: flex;
+    margin: 10px 20px;
+}
+.task-item input{
+    width: 10%;
+}
+.task-item p{
+    width: 90%;
+    text-align: left;
+}
