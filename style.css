@@ -10,16 +10,19 @@ body{
     margin: 20px auto;
 }
 .task-list{
-    margin-top: 30px;
+    margin: 40px 20px 0 20px;
+    text-align: left;
+}
+.task-list li{
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+input{
+    width: 10%;
+    height: 15px;
+    margin-top: 5px;
 }
 .task-item{
-    display: flex;
-    margin: 10px 20px;
-}
-.task-item input{
-    width: 10%;
-}
-.task-item p{
     width: 90%;
-    text-align: left;
 }
