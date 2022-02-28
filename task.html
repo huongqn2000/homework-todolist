@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tasks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,7 +13,27 @@
     <p>15:10pm - 08:40pm</p>
     <ul class="task-list" id="content">
     </ul>
+    <button id="btnAdd">Add Task</button>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Add Task</h3>
+          <form class="form">
+            <div class="form-group">
+              <label for="myTitle">Title:</label>
+              <input type="text" class="form-control" id="myTitle" placeholder="Enter title...">
+            </div>
+            <div class="form-group">
+              <label for="myDes">Description:</label>
+              <input type="text" class="form-control" id="myDes" placeholder="Enter description...">
+            </div>
+              <button type="submit" class="btn btn-success btn-block">Add</button>
+          </form>
+        </div>
+    </div>
 
     <script src="app.js"></script>
+    <script src="modal.js"></script>
 </body>
 </html>
